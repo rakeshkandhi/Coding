@@ -18,15 +18,13 @@ class A extends JFrame implements ActionListener{
     	tf1.setText("Your message");
     }
 }
-    
 public class FirstGui {
 	public static void main(String[] args) {
 		A gui = new A();
 		gui.setLayout(new FlowLayout());
-    gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    gui.setSize(400, 400);
-    gui.setTitle("Title");
-    gui.setVisible(true);
+    	gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    	gui.setSize(400, 400);
+    	gui.setTitle("Title");
+    	gui.setVisible(true);
 	}
-
 }
